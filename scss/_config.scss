@@ -1,0 +1,19 @@
+// primary
+$Very-Dark-Blue: hsl(243, 87%, 12%);
+$Desaturated-Blue: hsl(238, 22%, 44%);
+// accent
+$Bright-Blue: hsl(224, 93%, 58%);
+$Moderate-cyan: hsl(170, 45%, 43%);
+// neutral
+$Light-Grayish-Blue: hsl(240, 100%, 98%);
+$Light-Gray: hsl(0, 0%, 75%);
+// fonts
+$ff-heading-nav: 'Raleway', sans-serif;
+$ff-primary: 'Open Sans', sans-serif;
+
+// mixin
+@mixin flex-s-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

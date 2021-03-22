@@ -1,0 +1,42 @@
+.footer {
+  background: $Very-Dark-Blue;
+  color: $Light-Grayish-Blue;
+  padding: 2rem;
+  &-logo {
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem;
+  }
+  &-content {
+   display: flex;
+  
+   justify-content: space-between;
+  }
+  &-innercol {
+    display: flex;
+  }
+  &-photo {
+    margin-right: 1rem;
+  }
+  &-list-item {
+    margin-bottom: 1rem;
+  }
+  &-link {
+    color: $Light-Grayish-Blue;
+    transition: color 350ms linear;
+  &:hover{
+    color: $Bright-Blue;
+  }
+  }
+  i {
+    cursor: pointer;
+    margin-right: 0.5rem;
+    padding: 1rem;
+    font-size: 28;
+    border: 2px solid $Light-Grayish-Blue;
+    border-radius: 50%;
+    transition: color 350ms linear;
+    &:hover{
+      color: $Bright-Blue;
+    }
+  }
+}

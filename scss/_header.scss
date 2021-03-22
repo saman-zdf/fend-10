@@ -1,0 +1,19 @@
+.header {
+  padding: 2rem;
+  &-content {
+    @include flex-s-between;
+  }
+  .nav {
+    &-items {
+      display: flex;
+      font-family: $ff-heading-nav;
+    }
+    &-list {
+      margin-left: 1rem;
+    }
+    &-link {
+      color: $Very-Dark-Blue;
+      font-weight: bold;
+    }
+  }
+}

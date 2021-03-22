@@ -1,0 +1,52 @@
+.hero {
+  color: $Very-Dark-Blue;
+  margin-top: 5rem;
+  &-content {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-areas:
+      'a a . b b'
+      'a a . b b';
+    align-items: center;
+    column-gap: 1rem;
+  }
+  &-info {
+    grid-area: a;
+    max-width: 600px;
+    margin: 1rem auto;
+  }
+  &-heading {
+    margin-bottom: 1rem;
+  }
+  &-lead {
+    max-width: 500px;
+    margin-bottom: 1rem;
+  }
+  &-input {
+    padding: 0.7rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+   
+  }
+  &-inputs {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+
+  }
+  &-image-container {
+    grid-area: b;
+  }
+
+  &-img {
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+  }
+}
+
+.alert-invalid {
+  color: red;
+  margin: 0.2rem 0;
+}
